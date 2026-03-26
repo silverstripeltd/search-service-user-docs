@@ -7,7 +7,7 @@ Silverstripe Search has a range of powerful features that use advanced Elastic t
 
 > [!NOTE]
 > **Looking for the Developer’s guide?**
-> If you’re thinking “show me the code already” you might want to head over to the [Developer’s guide]({filename}/pages/developers-guide.md)
+> If you're thinking "show me the code already" you might want to head over to the [Developer's guide](/developers-guide)
 
 
 ## Plans, Tiers and Add-ons
@@ -129,26 +129,26 @@ This guide is arranged as you might set up your search. To start, you need to [g
 
 ### Getting your content into Silverstripe Search
 
--   Setting up - [Engines and Schema](/features/engines-and-schema.md)
--   Adding your content - [Documents and Files](/features/documents-and-files.md)
+-   Setting up - [Engines and Schema](/features/engines-and-schema)
+-   Adding your content - [Documents and Files](/features/documents-and-files)
 
 ### Searching your content
 
--   [Search](/features/search.md)
-    -   [Filtering](/features/search.md#filters)
-    -   [Facets](/features/search.md#facets)
-    -   [Suggestions](/features/search.md#suggestions)
+-   [Search](/features/search)
+    -   [Filtering](/features/search#filters)
+    -   [Facets](/features/search#facets)
+    -   [Suggestions](/features/search#suggestions)
 
 ### Search relevance settings
 
--   [Synonyms](/features/synonyms.md)
--   [Search Weights](/features/relevance-tuning.md)
--   [Precision](/features/precision.md)
+-   [Synonyms](/features/relevancy/synonyms)
+-   [Search Weights](/features/relevancy/weights)
+-   [Precision](/features/relevancy/precision)
 
 ### Other
 
--   [Single tenancy](/features/dedicated-deployment.md)
--   [Te Reo Māori support](/features/te-reo.md)
+-   [Single tenancy](/features/dedicated-deployment)
+-   [Te Reo Māori support](/features/te-reo-maori)
 -   Search logs - available via service desk request
 
 ## Further support

@@ -12,7 +12,7 @@ Silverstripe Search is managed search software and infrastructure that provides 
 > [!NOTE]
 > **Looking for the Developer’s guide?**
 >
-> If you’re thinking “show me the code already” you might want to head over to the [Developer’s guide]({filename}/pages/developers-guide.md)
+> If you're thinking "show me the code already" you might want to head over to the [Developer's guide](/developers-guide)
 
 
 Silverstripe Search provides you search features with advanced Elastic technologies, technical support, 24/7 monitoring, heightened security controls, and implementation SDKs.
@@ -27,27 +27,26 @@ Silverstripe Search transforms your site’s content into an easily searchable f
 
 An engine is a group of your documents. All documents within an engine must have the same structure which is know as the engine’s **schema**. This organisation allows Silverstripe Search to process your content into a searchable format.
 
-More information can be found in [Engines and Schema](/features/engines-and-schema.md).
+More information can be found in [Engines and Schema](/features/engines-and-schema).
 
-Your plan will include an engine allowance. For more information about plans, refer to [Features]({filename}/pages/features.md).
+Your plan will include an engine allowance. For more information about plans, refer to [Features](/features).
 
 ### Documents
 
-A document is a representation of your content stored in Silverstripe Search. When you send a document to an engine, it is processed ready for searching, this is known as indexing. What documents you create depends on your site but a common example of a document is an individual page e.g. “Home Page”, “About Page” etc. To find out more, refer to [Documents and Files](/features/documents-and-files.md).
+A document is a representation of your content stored in Silverstripe Search. When you send a document to an engine, it is processed ready for searching, this is known as indexing. What documents you create depends on your site but a common example of a document is an individual page e.g. “Home Page”, “About Page” etc. To find out more, refer to [Documents and Files](/features/documents-and-files).
 
 ### Deciding what is searchable
 
 You will first need to decide what content you would like to make searchable. For example, most sites require their public page content to be searchable but your application may have special requirements. Do you have files like PDFs that you would like to show in search results? Is there a feature on your site that could be powered by a refined search such as a knowledge base? Having a clear scope will help you get the most out of Silverstripe Search.
 
-To get your content into Silverstripe Search you will need a Developer to make some changes to your site. Silverstripe Search is designed to be easily set up on a site running Silverstripe CMS. We provide a Software Development Kit (SDK) to get developers up and running quickly. Find out more in the [Developer’s guide]({filename}/pages/developers-guide.md).
+To get your content into Silverstripe Search you will need a Developer to make some changes to your site. Silverstripe Search is designed to be easily set up on a site running Silverstripe CMS. We provide a Software Development Kit (SDK) to get developers up and running quickly. Find out more in the [Developer’s guide](/developers-guide).
 
 ### How to search your content
 
 At its simplest search helps you match a phrase to a document usually via a search input on your site. Silverstripe Search has a few tricks up its sleeve to enhance your users search experience.
 
-<div class="callout callout-info" markdown="1">
-Some features are only available on certain **Plans**. For more detail on what’s available, check out [Features]({filename}/pages/features.md)
-</div>
+> [!NOTE]
+> Some features are only available on certain **Plans**. For more detail on what's available, check out [Features](/features)
 
 #### Filtering
 
@@ -67,12 +66,12 @@ Synonyms can help to make your content more accessible by allowing you to set wo
 
 #### Mix and match
 
-The above features can be combined to provide powerful features specific to your content. You can explore more on the the [Features]({filename}/pages/features.md) guide or engage a developer to see what’s possible.
+The above features can be combined to provide powerful features specific to your content. You can explore more on the the [Features](/features) guide or engage a developer to see what’s possible.
 
 ## Where to next
 
--   See what else you can do by diving into the Silverstripe Search [Features guide]({filename}/pages/features.md)
--   Roll up your sleeves and get implementing with the [Developer’s guide]({filename}/pages/developers-guide.md)
--   Get answers to those nagging security questions in the [Security guide]({filename}/pages/security-guide.md)
--   Recap on the terminology? See the [glossary]({filename}/pages/glossary.md)
--   None of the above? Try our [FAQs]({filename}/pages/faq.md)
+-   See what else you can do by diving into the Silverstripe Search [Features guide](/features)
+-   Roll up your sleeves and get implementing with the [Developer's guide](/developers-guide)
+-   Get answers to those nagging security questions in the [Security guide](/security_guide)
+-   Recap on the terminology? See the [glossary](/glossary)
+-   None of the above? Try our [FAQs](/faq)
