@@ -51,10 +51,10 @@ A query can consist of multiple **terms** (even multi-word terms), which can be 
 
 By default Silverstripe Search will calculate a [document score](/features/relevancy#relevance-score) for how well a document matches your query. Results with the highest score will be returned first. You can choose a different order by sorting on a different field. Different field types can be sorted in [type-specific](/features/documents-and-files/) ways:
 
--   <code>text</code>: Can be sorted alphanumerically
--   <code>number</code>: Can be sorted numerically
--   <code>date</code>: Can be sorted historically
--   <code>geolocation</code>: Can be sorted by distance to a provided geographical point.
+-   `text`: Can be sorted alphanumerically
+-   `number`: Can be sorted numerically
+-   `date`: Can be sorted historically
+-   `geolocation`: Can be sorted by distance to a provided geographical point.
 
 Sorting can be done against multiple fields, ascending or descending.
 

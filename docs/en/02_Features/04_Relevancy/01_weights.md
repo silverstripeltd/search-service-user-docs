@@ -26,6 +26,6 @@ Description: Like the Cat Ear Headphones but with a spooky twist ready for your 
 
 ---
 
-In this example the word <code>cat</code> appears once in Product One but twice in Product Two. If you were to search for <code>cat</code> then, by default, product two would appear first as the most relevant because it contains more keyword matches. To avoid this you can add a **weight** to the Title field telling the search that matches in the Title field contribute more to the document score.
+In this example the word `cat` appears once in Product One but twice in Product Two. If you were to search for `cat` then, by default, product two would appear first as the most relevant because it contains more keyword matches. To avoid this you can add a **weight** to the Title field telling the search that matches in the Title field contribute more to the document score.
 
 You can add weights to your searches via code using the <a target="_blank" href="https://github.com/silverstripeltd/silverstripe-discoverer/blob/main/docs/detailed-querying.md#search-fields">Discoverer module from SDK</a>. Larger weight values will mean the weighted field contributes more to the relevance score for a document.

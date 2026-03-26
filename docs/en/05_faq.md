@@ -45,7 +45,7 @@ Each virtual stack that is part of a separate Content Channel (see [What is a â€
 
 Yes - on some of the plans. Please consult the [Features guide](features) for what is included in plans and the [Documents and Files](/features/documents-and-files) section for details on the feature.
 
-## Can I index file types other than <code>docx</code> and <code>pdf</code>?
+## Can I index file types other than `docx` and `pdf`?
 
 Other formats are currently not supported by our operational procedures. Indexing other types of documents may lead to issues and we may not be able to fulfill our obligations to you.
 
