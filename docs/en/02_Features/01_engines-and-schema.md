@@ -86,4 +86,4 @@ The following data types are supported:
 
 ### Editing and viewing your Schema
 
-You can view your engine's current schema using the [Silverstripe Search Administration module](https://github.com/silverstripeltd/silverstripe-bifrost-admin) or with the API. Schema must be created or updated by an API request. For more information, refer to the [Developer’s Guide](/developers-guide).
+You can view your engine's current schema using the [Silverstripe Search Dashboard](https://dashboard.silverstripe.cloud/search) and the [Silverstripe Search Administration module](https://github.com/silverstripeltd/silverstripe-bifrost-admin) or with the API. Schema **must be created or updated by an API** request. For more information, refer to the [Developer’s Guide](/developers-guide).

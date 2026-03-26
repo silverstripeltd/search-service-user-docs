@@ -20,6 +20,7 @@ What are we talking about? Some of the terminology for Silverstripe Search has a
 -   **Query** is a word or phrase that a user wants information about. Silverstripe Search finds documents that have content matching the query. A query can consist of multiple terms (even multi-word terms)
 -   **Term** means one or more words in a query that Silverstripe Search is matching on. A term can be a single word term (e.g. cart), or a multi-word term (e.g. "horse-drawn cart")
 -   **Document score** is a number that represents how well a specific document matches the query.
+-   **Dashboard** is the user interface for Silverstripe Search located at [https://dashboard.silverstripe.cloud/search](https://dashboard.silverstripe.cloud/search)
 
 ## Further support
 

@@ -8,7 +8,7 @@ Once you have added your content as [Documents](/features/documents-and-files/) 
 
 Performing a search has at its core a **query**. This is usually a word or phrase that a user wants information about. Silverstripe Search takes the query and finds documents that have content matching that it. For example, your user may make a query for contact address in order to find a page on your site that contains your organisation’s physical address.
 
-By default Silverstripe Search will match the query to the content of all the fields in your document. This can be customised - for more information see the [Developer's guide](/developers-guide).
+By default Silverstripe Search will match the query to the content of all the fields in your document. This can be customised - for more information see the [Developer's guide](/developers-guide) or the [Search API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/search_post).
 
 A query can consist of multiple **terms** (even multi-word terms), which can be combined using special syntax (operators). By default Silverstripe Search will match any terms in your query (although the more complete the match the higher the [**document score**](/features/relevancy#relevance-score) of the result). Search behaviour can be changed using special syntax (operators):
 
@@ -49,18 +49,28 @@ A query can consist of multiple **terms** (even multi-word terms), which can be 
 
 ## Sorting
 
-By default Silverstripe Search will calculate a [document score](/features/relevancy#relevance-score) for how well a document matches your query. Results with the highest score will be returned first. You can choose a different order by sorting on a different field. Different field types can be sorted in [type-specific](/features/documents-and-files/) ways:
+By default Silverstripe Search will calculate a [document score](/features/relevancy#relevance-score) for how well a document matches your query. Results with the highest score will be returned first.
 
--   `text`: Can be sorted alphanumerically
--   `number`: Can be sorted numerically
--   `date`: Can be sorted historically
--   `geolocation`: Can be sorted by distance to a provided geographical point.
+You can fine-tune how this score is calculated using the [Relevancy tuning](/features/relevancy) options:
 
-Sorting can be done against multiple fields, ascending or descending.
+- [Weights](/features/relevancy/weights) — Prioritise certain fields so that matches in those fields contribute more to the score
+- [Boosts](/features/relevancy/boosts) — Promote documents that match specific criteria such as a particular value, recency, or proximity to a location
+- [Precision](/features/relevancy/precision) — Control how strictly queries must match your content
+- [Synonyms](/features/relevancy/synonyms) — Define equivalent terms so users find content regardless of the terminology they use
+- [Curations](/features/relevancy/curations) — Manually pin or hide specific documents for particular queries
+
+You can choose a different order by sorting on a different field. Different field types can be sorted in [type-specific](/features/documents-and-files/) ways:
+
+-   <code>text</code>: Can be sorted alphanumerically
+-   <code>number</code>: Can be sorted numerically
+-   <code>date</code>: Can be sorted historically
+-   <code>geolocation</code>: Can be sorted by distance to a provided geographical point.
+
+Sorting can be done against multiple fields, ascending or descending. Refer to the [Search API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/search_post) for details on sort options.
 
 ## Filters
 
-A common requirement for search is to match a subset of your overall content. For example, you may want a search box that finds only blog posts. You can use Silverstripe Search’s filters to narrow down what results are returned. This can allow you to create rich user interfaces such as product filters. There are several types available:
+A common requirement for search is to match a subset of your overall content. For example, you may want a search box that finds only blog posts. You can use Silverstripe Search's filters to narrow down what results are returned. This can allow you to create rich user interfaces such as product filters. Refer to the [Search API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/search_post) for filter request format details. There are several types available:
 
 <table class="table table-bordered">
   <thead class="table-light">
@@ -91,11 +101,11 @@ Facets help the user discover more about your data by showing them as groups of 
 
 ![Facets](./_images/features-search-facets.png)
 
-You can create facets by value which shows documents that have a matching field or by range such as documents within a specific date range.
+You can create facets by value which shows documents that have a matching field or by range such as documents within a specific date range. Refer to the [Search API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/search_post) for facet request format details.
 
 ## Results
 
-Result fields are customisable, and can be presented as raw values or field excerpts with search terms highlighted. There are further options to customise your results in code, check out the [Developer's guide](/developers-guide).
+Result fields are customisable, and can be presented as raw values or field excerpts with search terms highlighted. Refer to the [Search API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/search_post) for result field options or the [Developer's guide](/developers-guide) for further customisation in code.
 
 ## Suggestions
 
@@ -110,7 +120,7 @@ In short:
 
 Also known as “autocomplete”, “typehead”, etc.
 
-You can send a partial query and receive a list of more specific queries that match your content. This can be used by a developer to customise their Silverstripe CMS application by building an autocomplete box to help users complete their search faster.
+You can send a partial query and receive a list of more specific queries that match your content. This can be used by a developer to customise their Silverstripe CMS application by building an autocomplete box to help users complete their search faster. Refer to the [Query Suggestions API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/query_suggestion_post) for details.
 
 ![Query suggestions](./_images/features-search-query-suggestions.png)
 
@@ -120,7 +130,7 @@ You can send a partial query and receive a list of more specific queries that ma
 
 Also known as “spellcheck”, “did you mean?”, etc.
 
-You can send a query and receive a list of spelling suggestions that match your content. This feature can be used in many ways, but is commonly used when the end user performs a search that returns no results.
+You can send a query and receive a list of spelling suggestions that match your content. This feature can be used in many ways, but is commonly used when the end user performs a search that returns no results. Refer to the [Spelling Suggestions API documentation](https://search.silverstripe.cloud/api/v1/docs/#/search/spelling_suggestion_post) for details.
 
 ![Spelling suggestions](./_images/features-search-spelling-suggestions.png)
 
