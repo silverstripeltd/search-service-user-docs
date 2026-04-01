@@ -1,0 +1,8 @@
+{
+  "name": "search-service-user-docs",
+  "license": "MIT",
+  "description": "Silverstripe Search user guides",
+  "main": "docs/en/index.md",
+  "repository": "https://github.com/silverstripeltd/search-service-user-docs.git",
+  "author": "Silverstripe Ltd"
+}
