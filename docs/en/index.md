@@ -3,7 +3,7 @@ title: Silverstripe Search user guides
 introduction: Help for Silverstripe Search users and developers.
 ---
 
-# SilverStripe Search user guides
+# Silverstripe Search user guides
 This site is a user-focused reference targeted at editors and administrators who create and manage Silverstripe Search.
 
 This guide applies to version 1.x of the Silverstripe Search Service
