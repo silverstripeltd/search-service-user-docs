@@ -91,6 +91,12 @@ Your Silverstripe Search **Subscription** is the combination of your selected **
       <td>✔</td>
     </tr>
     <tr>
+      <td>Analytics</td>
+      <td></td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+    <tr>
       <td>PDF/Docx indexing (15MB file size limit)</td>
       <td></td>
       <td>✔</td>
