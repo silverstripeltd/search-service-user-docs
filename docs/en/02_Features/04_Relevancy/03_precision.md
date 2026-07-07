@@ -65,7 +65,11 @@ The precision setting change how your search queries match your content. By defa
 
 ## Setting Precision
 
-You can set the precision level at search time or globally via the settings api.
+You can set the precision level in the Dashboard, at search time, or globally via the settings API.
+
+### In the Dashboard
+
+If your plan includes access to the Dashboard, you can set an engine's precision using the **Precision tuning** slider. Drag the slider to a level and the Dashboard shows a description of how that level matches your content, so you can tune precision without needing to use the API. This sets the global precision for the engine (the level used when a search request does not specify its own `precision` value).
 
 ### Search time precision
 

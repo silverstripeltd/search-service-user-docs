@@ -151,6 +151,10 @@ This guide is arranged as you might set up your search. To start, you need to [g
 -   [Search Weights](/features/relevancy/weights)
 -   [Precision](/features/relevancy/precision)
 
+### Managing access
+
+-   [User roles and permissions](/features/user-roles-and-permissions)
+
 ### Other
 
 -   [Single tenancy](/features/dedicated-deployment)
