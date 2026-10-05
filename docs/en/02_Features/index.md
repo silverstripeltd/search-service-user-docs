@@ -137,7 +137,6 @@ This guide is arranged as you might set up your search. To start, you need to [g
 
 -   Setting up - [Engines and Schema](/features/engines-and-schema)
 -   Adding your content - [Documents and Files](/features/documents-and-files)
--   Checking your content was indexed - [Indexing failures](/features/indexing-failures)
 
 ### Searching your content
 
