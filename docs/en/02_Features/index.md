@@ -137,6 +137,7 @@ This guide is arranged as you might set up your search. To start, you need to [g
 
 -   Setting up - [Engines and Schema](/features/engines-and-schema)
 -   Adding your content - [Documents and Files](/features/documents-and-files)
+-   Checking why your content isn't being indexed - [Indexing failures](https://github.com/silverstripeltd/silverstripe-forager/blob/main/docs/en/13_indexing_failures.md)
 
 ### Searching your content
 
